@@ -17,7 +17,6 @@ html {
 }
 
 section {
-    background-color: brown;
     margin-bottom: 10px;
     border-bottom: 1px solid aqua;
 }
@@ -26,7 +25,9 @@ section[id] {
     position: relative;
     overflow: hidden;
     isolation: isolate;
-    background: brown;
+    background: linear-gradient(rgba(0, 255, 255, 0.03) 1px, transparent 1px) 0 0 / 48px 48px,
+        linear-gradient(90deg, rgba(0, 255, 255, 0.03) 1px, transparent 1px) 0 0 / 48px 48px,
+        linear-gradient(135deg, #02050d 0%, #060b17 60%, #04202a 100%);
 }
 
 section[id]::before,
