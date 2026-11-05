@@ -17,6 +17,7 @@ html {
 }
 
 section {
+    background-color: brown;
     margin-bottom: 10px;
     border-bottom: 1px solid aqua;
 }
