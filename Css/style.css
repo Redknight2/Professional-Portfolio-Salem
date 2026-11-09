@@ -174,7 +174,7 @@ nav a {
 nav a:hover,
 nav a.active {
     color: aqua;
-    transition: 0.6s ease;
+    transition: 0.8s ease;
     border-bottom: 3px solid;
 }
 
